@@ -1,19 +1,18 @@
 "use client";
 
 import HeadingBadge from "@/components/heading-badge";
-import { SiCplusplus, SiExpress, SiMongodb, SiReactrouter, SiVercel } from "react-icons/si";
+import { SiCplusplus, SiReactrouter, SiVercel } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import {
   FaCss3,
   FaGitAlt,
   FaGithub,
   FaHtml5,
-  FaNodeJs,
   FaReact,
 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { VscVscode } from "react-icons/vsc";
-import { Lightbulb, RouteIcon, Router } from "lucide-react";
+import { Lightbulb } from "lucide-react";
 
 type Skill = {
   name: string;
